@@ -4,7 +4,7 @@
 import * as React from 'react'
 import {useLocalStorageState} from '../utils'
 
-function Board({initialSquares}) {
+function Board() {
   const [squares, setSquares] = useLocalStorageState('squares', Array(9).fill(null))
 
   const nextValue = calculateNextValue(squares)
