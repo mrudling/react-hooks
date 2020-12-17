@@ -30,7 +30,6 @@ function Display({name, animal}) {
 }
 
 function App() {
-  // 🐨 add a useState for the animal
   const [name, setName] = React.useState('Tom')
   const [animal, setAnimal] = React.useState('Koala')
   return (
